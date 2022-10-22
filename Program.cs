@@ -23,6 +23,12 @@ namespace ConsoleApplication2
                     Console.Write("{0,9}", i + 5);
                 }
                 Console.WriteLine();
+                Console.WriteLine();
+                for (byte f = 1; f <= i; ++f)
+                {
+                    Console.Write("{0,9}", i + 5);
+                }
+                Console.WriteLine();
             }
             Console.ReadLine();
         }
